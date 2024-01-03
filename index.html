@@ -17,17 +17,17 @@
 
             <h1>Qual é sua sorte <br>de hoje?</h1>
             <p>Abra o biscoito e descubra!</p>
-            <img onclick="imgClosedCookie()" src="assets/Ebene 4.svg" alt="biscoito-fechado">
+            <img id="imgClosedCookie" src="assets/Ebene 4.svg" alt="biscoito-fechado">
 
         </div>
 
         <div class="screen2 hide">
         <h1>Aqui está a sua sorte <br>de hoje:</h1>
-        <p><span>Se alguém está tão cansado que <br>não possa te dar um sorriso,<br> deixa-lhe o teu.</span></p>
+        <p id="quotesFromTheCookie"><span>Se alguém está tão cansado que <br>não possa te dar um sorriso,<br> deixa-lhe o teu.</span></p>
         
         <img src="assets/opened-cookie.svg" alt="biscoito-aberto">
         
-        <button onclick="openAnotherOne()">Abrir outro biscoito</button>
+        <button id="openAnotherOne">Abrir outro biscoito</button>
         </div>
     </main> 
     <script src="main.js"></script>
